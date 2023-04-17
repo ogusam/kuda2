@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+body{
+  background-color: whitesmoke;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.kuda-heading{
+  margin-top: 200px;
+  margin-left: 50px;
+  color: #40196d;
+  font-size: 200%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Layout{
+  margin-left: 800px;
+  margin-right: 100px;
+  margin-bottom: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+h5{
+  display: block;
+  border-radius: 5px;
+  background-color: rgb(87, 185, 224);
+}
+.Sign-Layout{
+  background-color: white;
+  border-radius: 5px;
+  display: block;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 50px 50px;
+
+}
+.sbtn{
+  border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    background-color:#40196d;
+    cursor: pointer;
+    border: none;
+    width: 150px;
+    height: 40px;
+}
+h2{
+  color: #40196d;
+}
+input{
+  background: white;
+  height: 30px;
+  text-decoration:none ;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.h1,h2{
+  margin-left: 200px;
+  margin-bottom: 10%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+            
+            
+            
